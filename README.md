@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nishant1600/Nishant1600/output/cowboy.svg" alt="A cowboy with a revolver shooting down each square of my GitHub contribution graph" width="100%">
+  <img src="assets/cowboy.svg" alt="A cowboy with a revolver shooting down each square of my GitHub contribution graph" width="100%">
 </p>
 
 <p align="center">
