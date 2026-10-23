@@ -1,114 +1,49 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Nishant Sharma: AI & Full-Stack Developer, B.Tech at the Faculty of Technology, University of Delhi" width="100%">
-</picture>
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/typing-dark.svg">
-    <img src="assets/typing-light.svg" alt="Building AI agents that actually ship · Full-stack apps in TypeScript & Python" width="100%">
-  </picture>
+  <img src="assets/store/masthead.png" alt="Nishant Sharma: General Store and Software Emporium. Purveyor of AI agents and honest code. B.Tech (1st year) at the Faculty of Technology, University of Delhi. Builds AI agents and the full-stack apps around them. OpenAI Hackathon and GFG Hack-4-Viksit Bharat. Sharpening C daily and training vision models with PyTorch." width="100%">
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nishant1600/"><img src="https://img.shields.io/badge/💼_LinkedIn-nishant1600-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="mailto:nishantsharmadks@gmail.com"><img src="https://img.shields.io/badge/Email-nishantsharmadks@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/📍_Noida,_India-22d3ee?style=for-the-badge" alt="Noida, India">
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img src="assets/divider-light.svg" alt="" width="100%">
-</picture>
-
-## 👨‍💻 About me
-
-- 🎓 **B.Tech (1st year)** at the **Faculty of Technology, University of Delhi**
-- 🤖 I build **AI agents** and the **full-stack apps** around them: voice assistants, codebase intelligence, multi-agent systems
-- 🏆 **Hackathons:** OpenAI Hackathon (*CodeInsight*) · GFG Hack-4-Viksit Bharat (*MediScan*, team project)
-- 🌱 **Currently sharpening:** C (daily practice) and training vision models with PyTorch
-- 💬 **Ask me about:** AI agents, RAG, FastAPI, Next.js
-- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/nishant1600/) or [nishantsharmadks@gmail.com](mailto:nishantsharmadks@gmail.com)
-
-## 🛠️ Tech stack
-
-<p align="center"><b>Languages</b><br><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,html,css,c,postgres&theme=dark">
-    <img src="https://skillicons.dev/icons?i=py,ts,js,html,css,c,postgres&theme=light" alt="Python, TypeScript, JavaScript, HTML, CSS, C, PostgreSQL">
-  </picture>
-</p>
-
-<p align="center"><b>Frameworks &amp; tools</b><br><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,threejs,fastapi,nodejs,firebase,docker,git,vercel,netlify&theme=dark">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,threejs,fastapi,nodejs,firebase,docker,git,vercel,netlify&theme=light" alt="React, Next.js, Tailwind, Vite, Three.js, FastAPI, Node.js, Firebase, Docker, Git, Vercel, Netlify">
-  </picture>
-</p>
-
-<p align="center"><b>AI &amp; ML</b><br><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark">
-    <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=light" alt="PyTorch, scikit-learn">
-  </picture>
-  <br><br>
-  <img src="https://img.shields.io/badge/LLM_APIs-OpenAI_·_Groq-8b5cf6?style=flat-square" alt="LLM APIs: OpenAI, Groq">
-  <img src="https://img.shields.io/badge/RAG-ChromaDB-22d3ee?style=flat-square" alt="RAG with ChromaDB">
-  <img src="https://img.shields.io/badge/Graphs-Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j">
-  <img src="https://img.shields.io/badge/Multi--agent_systems-f59e0b?style=flat-square" alt="Multi-agent systems">
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img src="assets/divider-light.svg" alt="" width="100%">
-</picture>
-
-## 🚀 Featured projects
-
-<p align="center">
-  <a href="https://github.com/Nishant1600/Codeinsight"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/codeinsight-dark.svg"><img src="assets/cards/codeinsight-light.svg" alt="CodeInsight: Google Maps for software systems" width="49%"></picture></a>
-  <a href="https://github.com/Nishant1600/ORION"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/orion-dark.svg"><img src="assets/cards/orion-light.svg" alt="ORION: energy supply-chain resilience platform" width="49%"></picture></a>
-  <a href="https://github.com/Nishant1600/BrainstormingJARVIS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/jarvis-dark.svg"><img src="assets/cards/jarvis-light.svg" alt="JARVIS: voice assistant, native on Windows" width="49%"></picture></a>
-  <a href="https://github.com/Nishant1600/studyhub"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/studyhub-dark.svg"><img src="assets/cards/studyhub-light.svg" alt="StudyHub: AI study assistant for DU FoT" width="49%"></picture></a>
-  <a href="https://github.com/Nishant1600/ai-website-audit-team"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/audit-team-dark.svg"><img src="assets/cards/audit-team-light.svg" alt="AI Website Audit Team: a company of AI agents for your website" width="49%"></picture></a>
-  <a href="https://github.com/Nishant1600/GFG-MEDISCAN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/mediscan-dark.svg"><img src="assets/cards/mediscan-light.svg" alt="MediScan: AI-assisted dermatology diagnosis" width="49%"></picture></a>
-  <a href="https://github.com/Nishant1600/Far_AWAY"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/far-away-dark.svg"><img src="assets/cards/far-away-light.svg" alt="Far Away: emergency response agent platform" width="49%"></picture></a>
+  <a href="https://www.linkedin.com/in/nishant1600/"><img src="https://img.shields.io/badge/LinkedIn-nishant1600-A1201A?style=for-the-badge&labelColor=1F1A14" alt="LinkedIn"></a>
+  <a href="mailto:nishantsharmadks@gmail.com"><img src="https://img.shields.io/badge/Email-nishantsharmadks@gmail.com-A1201A?style=for-the-badge&labelColor=1F1A14" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Noida,_India-A1201A?style=for-the-badge&labelColor=1F1A14" alt="Noida, India">
 </p>
 
 <p align="center">
-  <a href="https://codeinsight-iota.vercel.app/"><img src="https://img.shields.io/badge/▶_Live-CodeInsight-34d399?style=flat-square" alt="CodeInsight live demo"></a>
-  <a href="https://orion-eight-beta.vercel.app/"><img src="https://img.shields.io/badge/▶_Live-ORION-34d399?style=flat-square" alt="ORION live demo"></a>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img src="assets/divider-light.svg" alt="" width="100%">
-</picture>
-
-## 🏹 Contribution hunt
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nishant1600/Nishant1600/output/archer-dark.svg">
-    <img src="https://raw.githubusercontent.com/Nishant1600/Nishant1600/output/archer-light.svg" alt="A neon archer shooting arrows at each square of my GitHub contribution graph" width="100%">
-  </picture>
+  <img src="assets/store/banner.png" alt="New arrivals and permanent stock" width="100%">
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Nishant1600&background=0D1117&border=283044&ring=22D3EE&fire=FBBF24&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=22D3EE&sideLabels=8B949E&dates=8B949E&stroke=283044">
-    <img src="https://streak-stats.demolab.com?user=Nishant1600&background=FFFFFF&border=D0D7DE&ring=0891B2&fire=D97706&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=0891B2&sideLabels=57606A&dates=57606A&stroke=D0D7DE" alt="GitHub contribution streak">
-  </picture>
+  <a href="https://github.com/Nishant1600/Codeinsight"><img src="assets/store/item-codeinsight.png" alt="No. 101, CodeInsight: Google Maps for software systems. Maps any repo's architecture as a live graph, answers questions and predicts bug impact. OpenAI Hackathon." width="49%"></a>
+  <a href="https://github.com/Nishant1600/ORION"><img src="assets/store/item-orion.png" alt="No. 102, ORION: energy supply-chain resilience platform with real-time risk intelligence." width="49%"></a>
+  <a href="https://github.com/Nishant1600/BrainstormingJARVIS"><img src="assets/store/item-jarvis.png" alt="No. 103, JARVIS: a voice assistant, native on Windows, with every run recorded." width="49%"></a>
+  <a href="https://github.com/Nishant1600/studyhub"><img src="assets/store/item-studyhub.png" alt="No. 104, StudyHub: an AI study assistant for DU Faculty of Technology." width="49%"></a>
+  <a href="https://github.com/Nishant1600/ai-website-audit-team"><img src="assets/store/item-audit.png" alt="No. 105, AI Website Audit Team: 10 specialists, 5 supervisors and a CEO that find, fix and double-check every bug." width="49%"></a>
+  <a href="https://github.com/Nishant1600/GFG-MEDISCAN"><img src="assets/store/item-mediscan.png" alt="No. 106, MediScan: AI-assisted dermatology diagnosis, built for GFG Hack-4-Viksit Bharat." width="49%"></a>
+  <a href="https://github.com/Nishant1600/Far_AWAY"><img src="assets/store/item-faraway.png" alt="No. 107, Far Away: an emergency response agent platform." width="49%"></a>
+  <a href="https://github.com/Nishant1600/Learning-C"><img src="assets/store/item-learningc.png" alt="No. 108, Learning-C: daily C practice, kept on record." width="49%"></a>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img src="assets/divider-light.svg" alt="" width="100%">
-</picture>
-
-<h3 align="center">🤝 Let's build something together</h3>
+<p align="center">
+  <a href="https://codeinsight-iota.vercel.app/"><img src="https://img.shields.io/badge/▶_Live-CodeInsight-A1201A?style=flat-square&labelColor=1F1A14" alt="CodeInsight live demo"></a>
+  <a href="https://orion-eight-beta.vercel.app/"><img src="https://img.shields.io/badge/▶_Live-ORION-A1201A?style=flat-square&labelColor=1F1A14" alt="ORION live demo"></a>
+</p>
 
 <p align="center">
-  Always happy to talk about AI agents, projects and collaborations.<br>
+  <img src="https://raw.githubusercontent.com/Nishant1600/Nishant1600/output/cowboy.svg" alt="A cowboy with a revolver shooting down each square of my GitHub contribution graph" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Nishant1600&background=F6EED8&border=1F1A14&ring=A1201A&fire=A1201A&currStreakNum=1F1A14&sideNums=1F1A14&currStreakLabel=A1201A&sideLabels=4A4036&dates=4A4036&stroke=1F1A14" alt="GitHub contribution streak">
+</p>
+
+<p align="center">
+  <img src="assets/store/stock.png" alt="Wares in stock. Languages: Python, TypeScript, JavaScript, HTML, CSS, C, PostgreSQL. Frameworks and tools: React, Next.js, Tailwind, Vite, Three.js, FastAPI, Node.js, Firebase, Docker, Git, Vercel, Netlify. AI and ML: PyTorch, scikit-learn, OpenAI and Groq APIs, RAG with ChromaDB, Neo4j, multi-agent systems. Mail orders: LinkedIn nishant1600 and nishantsharmadks@gmail.com." width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/store/close.png" alt="Always happy to talk about AI agents, projects and collaborations. Let's build something together." width="100%">
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/nishant1600/">LinkedIn</a> · <a href="mailto:nishantsharmadks@gmail.com">Email</a>
 </p>

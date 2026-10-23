@@ -1,0 +1,125 @@
+<!doctype html>
+<!-- Source for the README images (assets/*.png). Rendered by design/render.py. -->
+<html><head><meta charset="utf-8"><title>General Store sections</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rye&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=IM+Fell+English+SC&family=Special+Elite&display=block">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --ink: #1f1a14; --red: #a1201a; --ink2: #4a4036; }
+  html, body { background: #5b4630; }
+  body { width: 920px; padding: 20px; color: var(--ink); font: 15.5px/1.42 "Old Standard TT", serif; }
+  .sect { margin-bottom: 36px; }
+  .paper { position: relative; border-radius: 6px;
+    background:
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .25  0 0 0 0 .2  0 0 0 0 .12  0 0 0 .3 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+      radial-gradient(ellipse at 50% 30%, #f4ecd6 40%, #e6d8b4 90%, #cdb98c 100%);
+    box-shadow: inset 0 0 36px rgba(120,90,40,.45), 0 0 0 3px #2a1c10; }
+
+  /* masthead */
+  #masthead { padding: 30px 38px 28px; }
+  .head { text-align: center; }
+  .head .a { font: 14px "IM Fell English SC", serif; letter-spacing: 6px; color: var(--red); }
+  .head .b { font: 64px/1.02 "Rye", serif; margin: 6px 0 2px; }
+  .head .c { font: 700 italic 23px "Old Standard TT", serif; }
+  .strip { display: flex; justify-content: space-between; border-top: 4px double var(--ink); border-bottom: 4px double var(--ink); margin: 14px 0 18px; padding: 6px 4px; font: 12px "Old Standard TT", serif; text-transform: uppercase; letter-spacing: 2px; }
+  .intro { display: grid; grid-template-columns: 170px 1fr; gap: 24px; align-items: center; }
+  .pf { width: 170px; height: 170px; border: 3px solid var(--ink); outline: 1px solid var(--ink); outline-offset: 4px; overflow: hidden; }
+  .pf img { width: 100%; height: 100%; filter: grayscale(1) contrast(1.5) sepia(.3); }
+  .lead { font: 700 27px/1.15 "Old Standard TT", serif; text-transform: uppercase; }
+  .lead em { color: var(--red); font-style: normal; }
+  .intro ul { margin-top: 10px; list-style: none; font-size: 16px; }
+  .intro li { padding: 3px 0; border-bottom: 1px dotted var(--ink2); }
+  .intro li b { font: 12px "IM Fell English SC", serif; letter-spacing: 2px; color: var(--red); margin-right: 8px; }
+
+  /* section banner */
+  .banner { background: var(--ink); color: #f4ecd6; text-align: center; font: 24px "Rye", serif; letter-spacing: 5px; padding: 10px 0 8px; border-radius: 4px; box-shadow: 0 0 0 3px #2a1c10; }
+
+  /* item cards */
+  .items { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .item { display: grid; grid-template-columns: 112px 1fr; gap: 16px; padding: 18px 18px 14px; border-radius: 6px; min-height: 196px; }
+  .item .no { position: absolute; left: 0; top: 0; background: var(--red); color: #f4ecd6; font: 700 12px "Old Standard TT", serif; padding: 3px 10px; letter-spacing: 1px; border-radius: 6px 0 6px 0; }
+  .item .stamp { position: absolute; right: 12px; top: 10px; border: 2px solid var(--red); color: var(--red); font: 700 10px "Old Standard TT", serif; letter-spacing: 1.5px; padding: 2px 7px; text-transform: uppercase; transform: rotate(4deg); }
+  .item .ic { border-right: 1px solid var(--ink); display: flex; align-items: center; justify-content: center; padding-right: 14px; margin-top: 12px; }
+  .item .ic svg { width: 88px; height: 88px; color: var(--ink); stroke-width: 2.2; }
+  .item h4 { font: 21px/1.12 "Rye", serif; margin-top: 12px; padding-right: 8px; }
+  .item .tag { font: italic 15px "Old Standard TT", serif; color: var(--red); margin: 3px 0 5px; }
+  .item p { font-size: 14.5px; line-height: 1.38; }
+  .dots { margin-top: 8px; display: flex; align-items: baseline; font: 700 12.5px "Old Standard TT", serif; }
+  .dots::before { content: ""; flex: 1; border-bottom: 2px dotted var(--ink); order: 1; margin: 0 6px; }
+  .dots span:first-child { font-size: 12px; }
+  .dots span:last-child { order: 2; color: var(--red); white-space: nowrap; }
+
+  /* stock + mail */
+  #stock { padding: 26px 30px 24px; display: grid; grid-template-columns: 1.25fr 1fr; gap: 24px; }
+  .box { border: 3px double var(--ink); outline: 1px solid var(--ink); outline-offset: 4px; padding: 14px 18px; margin: 5px; }
+  .box h5 { font: 22px "Rye", serif; text-align: center; letter-spacing: 2px; margin-bottom: 8px; }
+  .box .cat { font: 12px "IM Fell English SC", serif; letter-spacing: 2.5px; color: var(--red); margin-top: 8px; }
+  .box .goods { font-size: 15.5px; line-height: 1.5; padding-bottom: 4px; border-bottom: 1px dotted var(--ink2); }
+  .mail { text-align: center; }
+  .mail .big { font: 700 italic 21px/1.3 "Old Standard TT", serif; color: var(--red); margin: 4px 0 10px; }
+  .mail .t { font: 14.5px/1.5 "Special Elite", monospace; margin-top: 8px; }
+  .mail .ct { font: 15px "IM Fell English SC", serif; letter-spacing: 2px; margin-top: 12px; border-top: 1px solid var(--ink); padding-top: 8px; line-height: 1.9; }
+
+  /* closing line */
+  #close { padding: 18px 30px; text-align: center; font: 700 italic 21px "Old Standard TT", serif; }
+  #close small { display: block; font: 12px "IM Fell English SC", serif; letter-spacing: 4px; color: var(--red); font-style: normal; margin-top: 4px; }
+</style></head>
+<body>
+
+<div class="sect paper" id="masthead">
+  <div class="head"><div class="a">★ General Store &amp; Software Emporium ★</div><div class="b">Nishant Sharma</div><div class="c">Purveyor of AI Agents &amp; Honest Code</div></div>
+  <div class="strip"><span>Catalogue No. 13</span><span>Noida · Established 2025</span><span>Prices Net · Fair Dealing</span></div>
+  <div class="intro">
+    <div class="pf"><img src="avatar.svg" alt=""></div>
+    <div><div class="lead">B.Tech scholar &amp; <em>proprietor</em><br>of this fine establishment</div>
+    <ul>
+      <li><b>SCHOOLING</b>B.Tech (1st year), Faculty of Technology, University of Delhi</li>
+      <li><b>TRADE</b>AI agents, and the full-stack apps built around them</li>
+      <li><b>HONOURS</b>OpenAI Hackathon · GFG Hack-4-Viksit Bharat</li>
+      <li><b>NOW</b>Sharpening C daily; training vision models with PyTorch</li>
+    </ul></div>
+  </div>
+</div>
+
+<div class="sect" id="banner"><div class="banner">NEW ARRIVALS &amp; PERMANENT STOCK</div></div>
+
+<div class="sect items" id="items">
+  <div class="item paper" id="item-codeinsight"><span class="no">Nº 101</span><span class="stamp">OpenAI Hackathon</span><div class="ic"><svg><use href="#ic-code"/></svg></div><div><h4>CodeInsight</h4><div class="tag">Google Maps for software systems</div><p>Maps any repo’s architecture as a live graph, answers questions and predicts bug impact.</p><div class="dots"><span>Next.js · FastAPI · Neo4j · OpenAI</span><span>LIVE</span></div></div></div>
+  <div class="item paper" id="item-orion"><span class="no">Nº 102</span><div class="ic"><svg><use href="#ic-orion"/></svg></div><div><h4>ORION</h4><div class="tag">Energy supply-chain resilience platform</div><p>Real-time risk intelligence from 30+ APIs and 500+ feeds across 160+ dashboard panels.</p><div class="dots"><span>TypeScript · Vite · deck.gl · MapLibre</span><span>LIVE</span></div></div></div>
+  <div class="item paper" id="item-jarvis"><span class="no">Nº 103</span><div class="ic"><svg><use href="#ic-jarvis"/></svg></div><div><h4>JARVIS</h4><div class="tag">Voice assistant, native on Windows</div><p>A JARVIS-style voice layer for a coding agent, with a 3D interface and every run recorded.</p><div class="dots"><span>Python · FastAPI · WebSockets · Three.js</span><span>OPEN</span></div></div></div>
+  <div class="item paper" id="item-studyhub"><span class="no">Nº 104</span><div class="ic"><svg><use href="#ic-study"/></svg></div><div><h4>StudyHub</h4><div class="tag">AI study assistant for DU FoT</div><p>Answers only from your own course material, with citations, flashcards, quizzes and more.</p><div class="dots"><span>Next.js · FastAPI · ChromaDB · Groq</span><span>OPEN</span></div></div></div>
+  <div class="item paper" id="item-audit"><span class="no">Nº 105</span><span class="stamp">New</span><div class="ic"><svg><use href="#ic-audit"/></svg></div><div><h4>AI Website Audit Team</h4><div class="tag">A company of AI agents for your website</div><p>10 specialists, 5 supervisors and a CEO that find, fix and double-check every bug.</p><div class="dots"><span>Claude Code skill · Multi-agent · QA</span><span>OPEN</span></div></div></div>
+  <div class="item paper" id="item-mediscan"><span class="no">Nº 106</span><span class="stamp">GFG Hack-4-Viksit Bharat</span><div class="ic"><svg><use href="#ic-mediscan"/></svg></div><div><h4>MediScan</h4><div class="tag">AI-assisted dermatology diagnosis</div><p>Privacy-preserving skin-condition screening for doctors, powered by EfficientNet-B3.</p><div class="dots"><span>PyTorch · EfficientNet · JavaScript</span><span>TEAM JOB</span></div></div></div>
+  <div class="item paper" id="item-faraway"><span class="no">Nº 107</span><div class="ic"><svg><use href="#ic-sign"/></svg></div><div><h4>Far Away</h4><div class="tag">Emergency response agent platform</div><p>Detects incidents, allocates resources and optimises routes with cooperating AI agents.</p><div class="dots"><span>Python · FastAPI · Docker · Multi-agent</span><span>OPEN</span></div></div></div>
+  <div class="item paper" id="item-learningc"><span class="no">Nº 108</span><div class="ic"><svg><use href="#ic-c"/></svg></div><div><h4>Learning-C</h4><div class="tag">Daily practice, kept on record</div><p>A repository created to mark my progress and keep me working on C every single day.</p><div class="dots"><span>C · Practice log</span><span>OPEN</span></div></div></div>
+</div>
+
+<div class="sect paper" id="stock">
+  <div class="box"><h5>WARES IN STOCK</h5>
+    <div class="cat">LANGUAGES</div><div class="goods">Python · TypeScript · JavaScript · HTML · CSS · C · PostgreSQL</div>
+    <div class="cat">FRAMEWORKS &amp; TOOLS</div><div class="goods">React · Next.js · Tailwind · Vite · Three.js · FastAPI · Node.js · Firebase · Docker · Git · Vercel · Netlify</div>
+    <div class="cat">AI &amp; ML</div><div class="goods" style="border:none">PyTorch · scikit-learn · OpenAI &amp; Groq APIs · RAG with ChromaDB · Neo4j · Multi-agent systems</div></div>
+  <div class="box mail"><h5>MAIL ORDERS</h5>
+    <div class="big">Correspondence invited from employers, collaborators &amp; fellow tinkerers.</div>
+    <div class="t">Ask me about AI agents, RAG, FastAPI &amp; Next.js. Sundays: closed for reading docs.</div>
+    <div class="ct">LinkedIn · nishant1600<br>nishantsharmadks@gmail.com</div></div>
+</div>
+
+<div class="sect paper" id="close">Always happy to talk about AI agents, projects and collaborations.<small>★ Let’s build something together ★</small></div>
+
+<script src="icons.js"></script>
+<script>
+  window.addEventListener('load', function () {
+    function go() {
+      var out = {};
+      document.querySelectorAll('[id]').forEach(function (el) {
+        if (el.tagName !== 'DIV' || el.id === 'rects') return;
+        var r = el.getBoundingClientRect();
+        out[el.id] = [r.left + scrollX, r.top + scrollY, r.width, r.height];
+      });
+      var pre = document.createElement('pre'); pre.id = 'rects'; pre.textContent = JSON.stringify(out);
+      document.body.appendChild(pre);
+    }
+    (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(function () { setTimeout(go, 400); });
+  });
+</script>
+</body></html>

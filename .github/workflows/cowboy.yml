@@ -7,14 +7,14 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/archer.py
-      - .github/workflows/archer.yml
+      - scripts/cowboy.py
+      - .github/workflows/cowboy.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: archer
+  group: cowboy
   cancel-in-progress: true
 
 jobs:
@@ -23,8 +23,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Draw the archer
-        run: python3 scripts/archer.py --user "${{ github.repository_owner }}" --out dist
+      - name: Load the revolver
+        run: python3 scripts/cowboy.py --user "${{ github.repository_owner }}" --out dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
