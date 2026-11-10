@@ -39,12 +39,12 @@ FLIGHTS = [
     ("13:20", "JARVIS", "THREE.JS · WEBSOCKETS", "B3", "ON TIME"),
     ("14:45", "STUDYHUB", "RAG · CHROMADB · GROQ", "C1", "ON TIME"),
     ("16:10", "MEDISCAN", "PYTORCH · EFFICIENTNET", "C2", "LANDED"),
-    ("18:00", "LEARNING-C", "C · EVERY SINGLE DAY", "D1", "DAILY"),
+    ("18:00", "LEARNING-C", "C++ · EVERY SINGLE DAY", "D1", "DAILY"),
 ]
 STATUS = {"LIVE": "green", "NEW": "orange", "DAILY": "orange"}
 TICKER = ("GATE A · LIVE DEMOS     GATE B · AGENT SYSTEMS     GATE C · AI & ML     GATE D · PRACTICE     "
           "ALL FLIGHTS OPERATED BY NISHANT SHARMA · B.TECH, DU FACULTY OF TECHNOLOGY · NOIDA     ")
-BELTS = [("BELT 1 · LANGUAGES & FRAMEWORKS", ["PYTHON", "TYPESCRIPT", "JAVASCRIPT", "C", "SQL", "REACT",
+BELTS = [("BELT 1 · LANGUAGES & FRAMEWORKS", ["PYTHON", "TYPESCRIPT", "JAVASCRIPT", "C++", "SQL", "REACT",
                                              "NEXT.JS", "TAILWIND", "VITE", "THREE.JS", "FASTAPI", "NODE.JS"]),
          ("BELT 2 · AI, DATA & TOOLS", ["PYTORCH", "SCIKIT-LEARN", "OPENAI API", "GROQ", "RAG", "CHROMADB",
                                        "NEO4J", "MULTI-AGENT", "FIREBASE", "DOCKER", "GIT", "VERCEL"])]
@@ -119,7 +119,7 @@ def boarding_pass(rnd: random.Random) -> str:
 {fields}
 <path d="M40 242H{cut - 24}" stroke="{T["perf"]}" stroke-dasharray="2 4"/>
 <text x="40" y="272" {lab}>PRIORITY</text><text x="150" y="272" font-size="13" fill="{T["ink"]}">OPENAI HACKATHON · GFG HACK-4-VIKSIT BHARAT</text>
-<text x="40" y="300" {lab}>IN-FLIGHT</text><text x="150" y="300" font-size="13" fill="{T["ink"]}">C EVERY DAY · VISION MODELS IN PYTORCH</text>
+<text x="40" y="300" {lab}>IN-FLIGHT</text><text x="150" y="300" font-size="13" fill="{T["ink"]}">C++ EVERY DAY · VISION MODELS IN PYTORCH</text>
 <text x="660" y="96" {lab}>PASSENGER</text><text x="660" y="118" {val}>NISHANT</text><text x="660" y="138" {val}>SHARMA</text>
 <text x="660" y="166" {lab}>FLIGHT</text><text x="660" y="186" {val}>NS1600</text>
 <text x="770" y="166" {lab}>SEAT</text><text x="770" y="186" {val}>1A</text>

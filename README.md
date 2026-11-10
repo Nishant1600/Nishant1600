@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/airport/pass.svg" width="100%" alt="Boarding pass. Passenger: Nishant Sharma, flight NS1600, from Noida to AI agents and full-stack apps. Class: B.Tech, year 1, DU Faculty of Technology. Priority: OpenAI Hackathon and GFG Hack-4-Viksit Bharat. In flight: C every day and vision models in PyTorch.">
+  <img src="assets/airport/pass.svg" width="100%" alt="Boarding pass. Passenger: Nishant Sharma, flight NS1600, from Noida to AI agents and full-stack apps. Class: B.Tech, year 1, DU Faculty of Technology. Priority: OpenAI Hackathon and GFG Hack-4-Viksit Bharat. In flight: C++ every day and vision models in PyTorch.">
 </p>
 
 <p align="center">
@@ -23,12 +23,12 @@
 | **B3** | [**JARVIS**](https://github.com/Nishant1600/BrainstormingJARVIS) | A voice layer for a coding agent, native on Windows, with a 3D interface and every run recorded. | Open source |
 | **C1** | [**StudyHub**](https://github.com/Nishant1600/studyhub) | AI study assistant for DU FoT that answers only from your own course material, with citations. | Open source |
 | **C2** | [**MediScan**](https://github.com/Nishant1600/GFG-MEDISCAN) | Privacy-preserving skin-condition screening for doctors, powered by EfficientNet-B3. <sub>GFG Hack-4-Viksit Bharat</sub> | Open source |
-| **D1** | [**Learning-C**](https://github.com/Nishant1600/Learning-C) | Daily C practice, kept on record. | Daily |
+| **D1** | [**Learning-C**](https://github.com/Nishant1600/Learning-C) | Daily C++ practice, kept on record. | Daily |
 
 </div>
 
 <p align="center">
-  <img src="assets/airport/baggage.svg" width="100%" alt="Baggage claim with skills riding two conveyor belts. Belt 1, languages and frameworks: Python, TypeScript, JavaScript, C, SQL, React, Next.js, Tailwind, Vite, Three.js, FastAPI, Node.js. Belt 2, AI, data and tools: PyTorch, scikit-learn, OpenAI API, Groq, RAG, ChromaDB, Neo4j, multi-agent systems, Firebase, Docker, Git, Vercel.">
+  <img src="assets/airport/baggage.svg" width="100%" alt="Baggage claim with skills riding two conveyor belts. Belt 1, languages and frameworks: Python, TypeScript, JavaScript, C++, SQL, React, Next.js, Tailwind, Vite, Three.js, FastAPI, Node.js. Belt 2, AI, data and tools: PyTorch, scikit-learn, OpenAI API, Groq, RAG, ChromaDB, Neo4j, multi-agent systems, Firebase, Docker, Git, Vercel.">
 </p>
 
 <p align="center">
